@@ -7,7 +7,7 @@ on:
 
 name: CD App Deployment
 env:
-  AZURE_RESOURCE_GROUP_NAME: devops-qc-func-rg
+  AZURE_RESOURCE_GROUP_NAME: mrg-quantummg1
   AZURE_RESOURCE_GROUP_LOCATION: eastus
   AZURE_FUNCTIONAPP_NAME: devopsqcfunc
   AZURE_FUNCTIONAPP_PACKAGE_PATH: './src/Function.Csharp'
