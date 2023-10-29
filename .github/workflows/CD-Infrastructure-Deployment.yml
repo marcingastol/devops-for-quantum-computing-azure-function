@@ -50,4 +50,4 @@ jobs:
         subscriptionId: ${{ secrets.AZURE_SUBSCRIPTION }}
         resourceGroupName: ${{ env.AZURE_RESOURCE_GROUP_NAME }}
         template: ./env/azuredeploy.rbac.json
-        parameters: appName=${{ env.APP_NAME }} location=${{ env.AZURE_RESOURCE_GROUP_LOCATION }}
+        parameters: appName=${{ env.APP_NAME }}
