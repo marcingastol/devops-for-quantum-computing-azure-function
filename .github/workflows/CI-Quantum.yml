@@ -22,6 +22,10 @@ jobs:
     - name: 'Checkout code'
       uses: actions/checkout@main
 
+    - uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: '3.1.x'
+
       # Build the Quantum Component
     - name: 'Build the Quantum Component'
       shell: pwsh
