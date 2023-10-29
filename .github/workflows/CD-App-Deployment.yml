@@ -21,6 +21,9 @@ jobs:
       # Checkout code
     - name: 'Checkout code'
       uses: actions/checkout@main
+    - uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: '3.1.x'
 
       # Log into Azure
     - name: 'Log into Azure'
