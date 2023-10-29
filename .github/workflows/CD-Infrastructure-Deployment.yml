@@ -7,7 +7,7 @@ on:
 
 name: CD Infrastructure Deployment
 env:
-  AZURE_RESOURCE_GROUP_NAME: devops-qc-func-rg
+  AZURE_RESOURCE_GROUP_NAME: mrg-quantummg1
   AZURE_RESOURCE_GROUP_LOCATION: eastus
   APP_NAME: devopsqcfunc
 jobs:
