@@ -54,8 +54,8 @@
             "properties": {
                 "providers": [
                     {
-                        "providerId": "Microsoft",
-                        "providerSku": "DZH3178M639F",
+                        "providerId": "microsoft-qc",
+                        "providerSku": "learn-and-develop",
                         "applicationName": "[concat(variables('workspaceName'), '-Microsoft')]"
                     },
                     {
