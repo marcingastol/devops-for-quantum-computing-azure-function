@@ -59,9 +59,9 @@
                         "applicationName": "[concat(variables('workspaceName'), '-Microsoft')]"
                     },
                     {
-                        "providerId": "honeywell",
+                        "providerId": "quantinuum",
                         "providerSku": "credits1",
-                        "applicationName": "[concat(variables('workspaceName'), '-honeywell')]"
+                        "applicationName": "[concat(variables('workspaceName'), '-quantinuum')]"
                     },
                     {
                         "providerId": "ionq",
